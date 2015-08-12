@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1365D8671B7B427500CDE963 /* TLAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8601B7B427500CDE963 /* TLAttributedLabel.m */; };
+		1365D8681B7B427500CDE963 /* TLAttributedLabelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8621B7B427500CDE963 /* TLAttributedLabelUtils.m */; };
+		1365D8691B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8641B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.m */; };
+		1365D86A1B7B427500CDE963 /* NSMutableAttributedString+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8661B7B427500CDE963 /* NSMutableAttributedString+Config.m */; };
+		1365D8751B7B428100CDE963 /* TLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D86C1B7B428100CDE963 /* TLMainViewController.m */; };
+		1365D8761B7B428100CDE963 /* TLATTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D86E1B7B428100CDE963 /* TLATTViewController.m */; };
+		1365D8771B7B428100CDE963 /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8701B7B428100CDE963 /* TLTableViewController.m */; };
+		1365D8781B7B428100CDE963 /* TLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8721B7B428100CDE963 /* TLTableViewCell.m */; };
+		1365D8791B7B428100CDE963 /* TLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1365D8741B7B428100CDE963 /* TLModel.m */; };
 		13B111A71B7B404000E59C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B111A61B7B404000E59C64 /* main.m */; };
 		13B111AA1B7B404000E59C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B111A91B7B404000E59C64 /* AppDelegate.m */; };
-		13B111AD1B7B404000E59C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B111AC1B7B404000E59C64 /* ViewController.m */; };
 		13B111B01B7B404000E59C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B111AE1B7B404000E59C64 /* Main.storyboard */; };
 		13B111B21B7B404000E59C64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B111B11B7B404000E59C64 /* Images.xcassets */; };
 		13B111B51B7B404000E59C64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B111B31B7B404000E59C64 /* LaunchScreen.xib */; };
@@ -27,13 +35,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1365D85F1B7B427500CDE963 /* TLAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAttributedLabel.h; sourceTree = "<group>"; };
+		1365D8601B7B427500CDE963 /* TLAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAttributedLabel.m; sourceTree = "<group>"; };
+		1365D8611B7B427500CDE963 /* TLAttributedLabelUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAttributedLabelUtils.h; sourceTree = "<group>"; };
+		1365D8621B7B427500CDE963 /* TLAttributedLabelUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAttributedLabelUtils.m; sourceTree = "<group>"; };
+		1365D8631B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CTFrameRef.h"; sourceTree = "<group>"; };
+		1365D8641B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CTFrameRef.m"; sourceTree = "<group>"; };
+		1365D8651B7B427500CDE963 /* NSMutableAttributedString+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Config.h"; sourceTree = "<group>"; };
+		1365D8661B7B427500CDE963 /* NSMutableAttributedString+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Config.m"; sourceTree = "<group>"; };
+		1365D86B1B7B428100CDE963 /* TLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLMainViewController.h; sourceTree = "<group>"; };
+		1365D86C1B7B428100CDE963 /* TLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLMainViewController.m; sourceTree = "<group>"; };
+		1365D86D1B7B428100CDE963 /* TLATTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLATTViewController.h; sourceTree = "<group>"; };
+		1365D86E1B7B428100CDE963 /* TLATTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLATTViewController.m; sourceTree = "<group>"; };
+		1365D86F1B7B428100CDE963 /* TLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewController.h; sourceTree = "<group>"; };
+		1365D8701B7B428100CDE963 /* TLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewController.m; sourceTree = "<group>"; };
+		1365D8711B7B428100CDE963 /* TLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewCell.h; sourceTree = "<group>"; };
+		1365D8721B7B428100CDE963 /* TLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewCell.m; sourceTree = "<group>"; };
+		1365D8731B7B428100CDE963 /* TLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLModel.h; sourceTree = "<group>"; };
+		1365D8741B7B428100CDE963 /* TLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLModel.m; sourceTree = "<group>"; };
 		13B111A11B7B404000E59C64 /* TLCoreTextMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCoreTextMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B111A51B7B404000E59C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B111A61B7B404000E59C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13B111A81B7B404000E59C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B111A91B7B404000E59C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13B111AB1B7B404000E59C64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13B111AC1B7B404000E59C64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13B111AF1B7B404000E59C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13B111B11B7B404000E59C64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B111B41B7B404000E59C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +84,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1365D85E1B7B425D00CDE963 /* TLCoreTextMore */ = {
+			isa = PBXGroup;
+			children = (
+				1365D85F1B7B427500CDE963 /* TLAttributedLabel.h */,
+				1365D8601B7B427500CDE963 /* TLAttributedLabel.m */,
+				1365D8611B7B427500CDE963 /* TLAttributedLabelUtils.h */,
+				1365D8621B7B427500CDE963 /* TLAttributedLabelUtils.m */,
+				1365D8631B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.h */,
+				1365D8641B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.m */,
+				1365D8651B7B427500CDE963 /* NSMutableAttributedString+Config.h */,
+				1365D8661B7B427500CDE963 /* NSMutableAttributedString+Config.m */,
+			);
+			name = TLCoreTextMore;
+			sourceTree = "<group>";
+		};
 		13B111981B7B404000E59C64 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +120,19 @@
 		13B111A31B7B404000E59C64 /* TLCoreTextMore */ = {
 			isa = PBXGroup;
 			children = (
+				1365D85E1B7B425D00CDE963 /* TLCoreTextMore */,
 				13B111A81B7B404000E59C64 /* AppDelegate.h */,
 				13B111A91B7B404000E59C64 /* AppDelegate.m */,
-				13B111AB1B7B404000E59C64 /* ViewController.h */,
-				13B111AC1B7B404000E59C64 /* ViewController.m */,
+				1365D86B1B7B428100CDE963 /* TLMainViewController.h */,
+				1365D86C1B7B428100CDE963 /* TLMainViewController.m */,
+				1365D86D1B7B428100CDE963 /* TLATTViewController.h */,
+				1365D86E1B7B428100CDE963 /* TLATTViewController.m */,
+				1365D86F1B7B428100CDE963 /* TLTableViewController.h */,
+				1365D8701B7B428100CDE963 /* TLTableViewController.m */,
+				1365D8711B7B428100CDE963 /* TLTableViewCell.h */,
+				1365D8721B7B428100CDE963 /* TLTableViewCell.m */,
+				1365D8731B7B428100CDE963 /* TLModel.h */,
+				1365D8741B7B428100CDE963 /* TLModel.m */,
 				13B111AE1B7B404000E59C64 /* Main.storyboard */,
 				13B111B11B7B404000E59C64 /* Images.xcassets */,
 				13B111B31B7B404000E59C64 /* LaunchScreen.xib */,
@@ -219,8 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B111AD1B7B404000E59C64 /* ViewController.m in Sources */,
+				1365D86A1B7B427500CDE963 /* NSMutableAttributedString+Config.m in Sources */,
+				1365D8791B7B428100CDE963 /* TLModel.m in Sources */,
+				1365D8691B7B427500CDE963 /* NSMutableAttributedString+CTFrameRef.m in Sources */,
+				1365D8771B7B428100CDE963 /* TLTableViewController.m in Sources */,
 				13B111AA1B7B404000E59C64 /* AppDelegate.m in Sources */,
+				1365D8681B7B427500CDE963 /* TLAttributedLabelUtils.m in Sources */,
+				1365D8751B7B428100CDE963 /* TLMainViewController.m in Sources */,
+				1365D8761B7B428100CDE963 /* TLATTViewController.m in Sources */,
+				1365D8671B7B427500CDE963 /* TLAttributedLabel.m in Sources */,
+				1365D8781B7B428100CDE963 /* TLTableViewCell.m in Sources */,
 				13B111A71B7B404000E59C64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +472,7 @@
 				13B111C61B7B404000E59C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13B111C71B7B404000E59C64 /* Build configuration list for PBXNativeTarget "TLCoreTextMoreTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +481,7 @@
 				13B111C91B7B404000E59C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
